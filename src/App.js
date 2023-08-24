@@ -492,7 +492,7 @@ function App() {
       }}
     >
 
-  Based Bored Apes is a collection of 10,000 unique NFTs living on the Base Mainnet. All Apes are just incredible and based, but some are rare than others. Each one have attributes that make them unique according to a defined rarity system including glasses, headwears, clothing, mouth and more!
+  Based Bored Apes is a collection of 10,000 unique NFTs living on the Base Mainnet. All Apes are just incredible and based, but some are rare than others. Each one have attributes that make them unique according to a defined rarity system including glasses, headwears, clothing, mouth and more special things to discover!
 </s.TextSubTitle>
 
 <s.TextSubTitle
