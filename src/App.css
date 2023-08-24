@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+b {
+    color: rgb(73, 91, 255);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0)
+  }
+
+  100% {
+    transform: translateX(calc(-210px*99));
+  }
+}
+
+p {
+  font-family: 'Orbitron', sans-serif;
+}
+
+video {
+  border-radius: 50px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .accordion {
+    width: 1200px;
+  }
+  
+  .accordion-title {
+    display: flex;
+    font-size: 40px;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #b4b4b4;
+    letter-spacing: 1px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .accordion-title:hover {
+    background-color: #7d8fff;
+  }
+  
+  .accordion-title,
+  .accordion-content {
+    padding: 1rem;
+  }
+  
+  .accordion-content {
+    border-bottom: 2px solid #b4b4b4;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 20px;
+    }
+  
+    .accordion {
+      width: 90%;
+    }
+  }
+
+  .team {
+    justify-content: center;
+  }
+
+  .tm:not(:first-child):not(:last-child) {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
